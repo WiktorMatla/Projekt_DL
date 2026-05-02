@@ -13,7 +13,7 @@ Model sieci neuronowej prognozujący godzinową generację energii wiatrowej i f
 
 ## Struktura projektu
 
-
+```
 Projekt_DL/
 ├── 01_pse_generacja.ipynb       pobranie generacji OZE z PSE
 ├── 02_pogoda.ipynb              pobranie pogody historycznej z Open-Meteo Archive
@@ -27,7 +27,7 @@ Projekt_DL/
 │   └── processed/               wynikowe pliki przekazywane między notebookami
 ├── README.md
 └── .gitignore
-
+```
 
 Każdy notebook czyta dane z `data/processed/` od poprzedniego i zapisuje swoje wyniki.
 
