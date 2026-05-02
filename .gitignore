@@ -1,0 +1,11 @@
+# Dane
+data/pse/
+data/pse_archiwum/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Środowisko
+.cache/
