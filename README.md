@@ -12,6 +12,8 @@ Model sieci neuronowej prognozujący godzinową generację energii wiatrowej i f
 - **Wyjście:** jeden model, dwa targety (`wi`, `pv`), 24 godziny w przód, krok godzinowy
 
 ## Struktura projektu
+
+
 Projekt_DL/
 ├── 01_pse_generacja.ipynb       pobranie generacji OZE z PSE
 ├── 02_pogoda.ipynb              pobranie pogody historycznej z Open-Meteo Archive
